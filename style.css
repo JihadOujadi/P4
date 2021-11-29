@@ -509,7 +509,9 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
-
+.form-group{
+    margin: 0 0 30px 10px;
+}
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -677,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -686,10 +688,9 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 22px;
     font-family: "Open Sans";
 }
-
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
@@ -705,12 +706,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
     line-height: 1.4em;
+    text-align: center;
 }
 
 h3 {
-    font-size: 15px;
+
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -752,10 +753,7 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.black-background {
-    background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
-}
+
 
 .bold-link {
     font-weight: 900;

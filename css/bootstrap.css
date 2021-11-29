@@ -1551,20 +1551,7 @@ h3 {
     margin-bottom: 10px
 }
 
-.h1 .small,
-.h1 small,
-.h2 .small,
-.h2 small,
-.h3 .small,
-.h3 small,
-h1 .small,
-h1 small,
-h2 .small,
-h2 small,
-h3 .small,
-h3 small {
-    font-size: 65%
-}
+
 
 .h4,
 .h5,
@@ -1576,50 +1563,6 @@ h6 {
     margin-bottom: 10px
 }
 
-.h4 .small,
-.h4 small,
-.h5 .small,
-.h5 small,
-.h6 .small,
-.h6 small,
-h4 .small,
-h4 small,
-h5 .small,
-h5 small,
-h6 .small,
-h6 small {
-    font-size: 75%
-}
-
-.h1,
-h1 {
-    font-size: 36px
-}
-
-.h2,
-h2 {
-    font-size: 30px
-}
-
-.h3,
-h3 {
-    font-size: 24px
-}
-
-.h4,
-h4 {
-    font-size: 18px
-}
-
-.h5,
-h5 {
-    font-size: 14px
-}
-
-.h6,
-h6 {
-    font-size: 12px
-}
 
 p {
     margin: 0 0 10px
@@ -1638,10 +1581,7 @@ p {
     }
 }
 
-.small,
-small {
-    font-size: 85%
-}
+
 
 .mark,
 mark {
@@ -4286,7 +4226,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -7682,7 +7622,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
