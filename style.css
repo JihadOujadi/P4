@@ -367,6 +367,11 @@ a:hover {
 .col-sm-4 .text-center{
     font-size: 15px;
 }
+.col-sm-4 ul{
+    display: flex;
+    gap: 20px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -539,8 +544,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -549,7 +555,7 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
+    margin-left: 0;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -617,7 +623,7 @@ a[data-lightbox]:hover img {
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
-    color: rgba(255, 255, 255, .9);
+    color: rgba(255, 255, 255, 1)!important;
     background: rgba(0, 0, 0, .5);
     transition: all .2s ease-in-out;
     position: absolute;
@@ -733,6 +739,14 @@ h6{
     font-size: 25px;
     font-weight: 600;
 }
+.col-sm-12 h1{
+    color: #ffffff!important;
+    font-weight: 600;
+}
+.col-sm-12 p{
+    color: #ffffff!important;
+    font-size: 15px;
+}
 .col-sm-12 h4{
     font-size: 23px;
     font-weight: 600;
@@ -754,7 +768,6 @@ h1 {
 }
 
 
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -763,7 +776,9 @@ h1 {
 .white {
     color: #FFFFFF!important;
 }
-
+#bloc-8 .white{
+    color: #141414!important;
+}
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -804,7 +819,7 @@ h1 {
 }
 
 .btn-atomic-tangerine {
-    background: #c27956;
+    background: #9D2B25;
     color: #FFFFFF!important;
 }
 
