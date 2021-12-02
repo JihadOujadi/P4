@@ -739,8 +739,7 @@ h6{
     font-size: 25px;
     font-weight: 600;
 }
-.col-sm-12 h1{
-    color: #ffffff!important;
+.col-sm-12 h1{  
     font-weight: 600;
 }
 .col-sm-12 p{
@@ -851,6 +850,7 @@ h1 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
+    background-color: rgba(165, 147, 99, 0.7);
 }
 
 .bg-lines-h2-bg {
@@ -864,7 +864,19 @@ h1 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
-
+blockquote{
+    font-style: italic;
+    border-left: none;
+}
+#blockquote__name{
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.navbar-nav>li>a:hover{
+    color: #c27956!important
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
