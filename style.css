@@ -304,6 +304,7 @@ a:hover {
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
+    height: 40px;
     display: inline;
 }
 
@@ -742,6 +743,9 @@ h6{
 .col-sm-12 h1{  
     font-weight: 600;
 }
+.col-sm-12 img{
+    width: 100px;
+}
 .col-sm-12 p{
     color: #ffffff!important;
     font-size: 15px;
@@ -752,6 +756,9 @@ h6{
 }
 .col-sm-6 h3{
     font-weight: 600;
+}
+.img-responsive{
+    width: 350px;
 }
 .med-width-whitespace {
     max-width: 800px;
