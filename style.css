@@ -367,7 +367,7 @@ a:hover {
     margin: 25px 17px;
 }
 .col-sm-4 .text-center{
-    font-size: 15px;
+    font-size: 16px;
 }
 .col-sm-4 ul{
     display: flex;
@@ -692,7 +692,7 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -750,7 +750,7 @@ h6{
 }
 .col-sm-12 p{
     color: #ffffff!important;
-    font-size: 15px;
+    font-size: 16px;
 }
 .col-sm-12 h4{
     font-size: 23px;
